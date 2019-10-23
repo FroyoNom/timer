@@ -1,5 +1,5 @@
 let args = process.argv.slice(2);
-const timer1 = function(args) {
+const timer1 = args => {
   if (args.length === 0) {
     return;
   } else {
